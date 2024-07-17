@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <title>web pegajosa</title>
+</head>
+<body>
+    <div class="banner">
+        <h1>Studio Ghibli</h1>
+    </div>
+
+    <header class="container">
+        <figure class="logo">
+            <img src="ternurin.jpg" alt="logo">
+        </figure>
+    <nav>
+        <a href="#" class="item-options">Inicio</a>
+        <a href="#" class="item-options">Galería</a>
+        <a href="#" class="item-options">Contacto</a>
+    </nav>
+    </header>
+
+    <section class="main-container">
+        <article class="article">
+            <h1>Introducción</h1>
+            <p>Studio Ghibli (スタジオジブリ Sutajio Jiburi?) es un estudio japonés de animación, considerado por la crítica especializada y muchos cinéfilos como uno de los mejores estudios de animación del mundo en la actualidad.
+
+
+                El estudio es conocido por sus largometrajes animados y también ha producido varios cortometrajes, comerciales de televisión y una película para televisión. Fue fundado el 15 de junio de 1985 por los directores Hayao Miyazaki e Isao Takahata y el productor Toshio Suzuki, después del éxito de la película de anime de Topcraft Nausicaä del Valle del Viento (1984). Studio Ghibli también ha colaborado con estudios de videojuegos en el desarrollo visual de varios videojuegos.
+                
+                Seis de las películas de Studio Ghibli se encuentran entre las 10 películas de anime más taquilleras realizadas en Japón, siendo El Viaje de Chihiro (2001) la segunda más alta, recaudando más de 360 millones de dólares en todo el mundo. Muchos de sus trabajos han ganado el premio Animage Anime Grand Prix, y cinco han ganado el Premio de la Academia Japonesa de Animación del Año. Seis de las películas de Studio Ghibli han recibido nominaciones al Óscar y dos de ellas han ganado el premio. El Viaje de Chihiro ganó el Oso de Oro en 2002 y el Premio de la Academia a la mejor película de animación en 2003. El Chico y la Garza (2023) ganó de nuevo el Óscar a la mejor película de animación en 2024, además del BAFTA y el Globo de Oro a la mejor película de animación. En los premios Globo de Oro este film fue también nominado a mejor banda sonora original. Totoro, personaje principal de Mi vecino Totoro, es la mascota del estudio.
+                
+                El 3 de agosto de 2014, Studio Ghibli detuvo temporalmente la producción tras el retiro de Miyazaki. Sin embargo, en febrero de 2017, Toshio Suzuki anunció que Miyazaki había vuelto a salir de su retiro para volver a su puesto de director en el estudio. El 14 de julio de 2023, la nueva película de Miyazaki: El chico y la garza (2023), vio la luz en Japón. Tras el estreno mundial del filme, Suzuki reveló que Miyazaki está interesado en realizar una nueva película con el estudio y ya está trabajando en ella.3
+            </p>
+            <h1>Películas</h1>
+            <p>Nausicaä del Valle del Viento (1984)
+                El Castillo en el cielo (1986)
+                La Tumba de las Luciérnagas (1988)
+                Mi vecino Totoro (1988)
+                Nicky, la aprendiz de bruja (1989)
+                Recuerdos del ayer (1991)
+                Porco Rosso (1992)
+                Puedo escuchar el mar (1993)
+                Pompoko (1994)
+                Susurros del Corazón (1995)
+                La princesa Mononoke (1997)
+                Mis vecinos Los Yamada (1999)
+                El viaje de Chihiro (2001)
+                Haru en el reino de los gatos (2002)
+                El Castillo Ambulante (2004)
+                Cuentos de Terramar (2006)
+                Ponyo en el acantilado (2008)
+                Arrietty y el Mundo de los Diminutos (2010)
+                La colina de las amapolas (2011)
+                El viento se levanta (2013)
+                El cuento de la princesa Kaguya (2013)
+                El recuerdo de Marnie (2014)
+                Earwig y la bruja (2020)</p>
+            <h1>Cuentos poéticos y universales</h1>
+            <p>¿Cómo puede explicarse tal éxito? Más allá de una técnica de dibujo y animación única -la mayoría de las películas de Ghibli están hechas como películas, con, entre otras cosas, una técnica característica de desplazamiento en los planos generales dibujados por los artistas-, los temas abordados por las películas son a la vez universales (cuentos iniciáticos, problemas relacionados con la naturaleza, la familia y la infancia, la guerra, el amor...) y los ambientes son particularmente poéticos.
+
+                No te pierdas: Your name., fenómeno cinematográfico del año 2016
+                Inspirado especialmente en los paisajes japoneses y en los contrastes de las estaciones, el Estudio Ghibli suele transportar al espectador a un mundo onírico y poético, sin encerrarlo en una estrecha tradición japonesa. De hecho, aunque muchas de las películas están ambientadas en Japón, los mundos imaginarios pueden inspirarse en países de todo el mundo.
+                
+                Otras películas se desarrollan en Italia, Inglaterra, Francia... o en cualquier caso en países inspirados en Europa. El equilibrio entre los orígenes japoneses, las inspiraciones de otros lugares y los temas universales permite así que las obras del estudio lleguen a un público de todas las edades y de diferentes</p>
+            <h1>Ghibli: ¡también un museo y un parque!</h1>
+            <p>Para los aficionados y entusiastas de la obra de animación del estudio, ¡es posible sumergirse en el mundo de las películas de Ghibli "en la vida real"!
+
+                Además de las numerosas tiendas oficiales que hay en varias grandes ciudades japonesas (en las que se puede comprar todo tipo de artículos), hay un Museo Ghibli en el oeste de Tokio. Víctima de su éxito y muy confidencial, ¡sólo acoge a los visitantes que han reservado sus entradas con antelación!
+                
+                Pero eso no es todo: se anuncia un parque temático cerca de Nagoya a partir de 2022. Según los anuncios, será un parque basado en Mi vecino Totoro, la película que presenta a un ser mágico con forma de mapache gigante ("Totoro"), que reina sobre el bosque y vela por el buen equilibrio de la naturaleza. El proyecto aún es bastante secreto, pero los fans ya pueden esperar con impaciencia.
+                ¿Cómo llegar al Museo Ghibli? Se puede acceder al museo desde la estación de Mitaka con la línea JR Chūō (15 minutos desde la estación de Shinjuku). Hay autobuses de enlace desde la estación hasta el museo (210 yenes por trayecto, 320 yenes ida y vuelta, los niños pagan la mitad), mientras que un viaje en taxi cuesta unos 750 yenes. También se puede ir andando, llegarás en unos 20 minutos desde la estación de Mitaka o la de Kichijōji, pasando por el parque Inokashira.</p>
+        </article>
+    </body>
+</html>
+
+
+
+
+CSS
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner {
+    width: 100%;
+    padding: 9rem 3rem;
+    text-align: center;
+    background: url(paisaje.jpeg);
+    background-color: rgba(0,0,0,.3);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.banner h1 {
+    color: rgb(219, 242, 240);
+}
+
+.container {
+    width: 100%;
+    height: 60px;
+    background: #48566f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    width: 40px;
+    margin: 0;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.item-options {
+    color: #f1f1f1;
+    margin: 0 1.5rem;
+    text-decoration: none;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article {
+    width: 70%;
+    font-size: larger;
+}
