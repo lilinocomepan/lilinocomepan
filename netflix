@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <title>NETFLIX</title>
+    <link rel="icon" href="n.png">
+</head>
+<body>
+<!---->
+    <header>
+        <div class="banner">
+            <div class="banner_contenido">
+                <h1 class="banner_titulo"></h1>
+                <div class="banner_botones"></div>
+                    <button class="banner_boton">Play</button>
+                    <button class="banner_boton">Mi lista</button>
+                </div>
+            </div>
+            <div class="banner_fade"></div>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Series</a></li>
+                <li><a href="#">Peliculas</a></li>
+                <li><a href="#">Mi lista</a></li>
+            </ul>
+            <div class="barra" id="nav">
+                <img src="logo.png" alt="" class="barra_logo">
+                <img src="perfil.png" alt="" class="barra_perfil">
+            </div>        
+        </nav>
+    </header>
+
+<!---->
+    <div class="titulo">
+        <h2>ORIGINALES DE NETFLIX</h2>
+    </div>
+    <div class="fila"></div>
+        <div class="posters">
+            <img src="bb.jpg" alt="" class="posters_grandes">
+            <img src="flash.jpg" alt="" class="posters_grandes">
+            <img src="sg.jpg" alt="" class="posters_grandes">
+        </div>
+        </div>
+<!---->
+    <div class="titulo">
+        <h2>RECOMENDADOS PARA TI</h2>
+    </div>
+    <div class="fila">
+        <div class="posters">
+            <img src="scn.jpg" alt="" class="posters_grandes">
+            <img src="madagascar.jpg" alt="" class="posters_grandes">
+            <img src="flash.jpg" alt="" class="posters_grandes">
+            <img src="cobrakai.jpg" alt="" class="posters_grandes">
+        </div>
+    </div>
+<!---->
+    <div class="titulo">
+        <h2>TENDENCIAS EN CHILE</h2>
+    </div>
+    <div class="fila">
+        <div class="posters">
+            <img src="xokitty.JPG" alt="" class="posters_grandes">
+            <img src="you.JPG" alt="" class="posters_grandes">
+            <img src="bridg.JPG" alt="" class="posters_grandes">
+            <img src="cobrakai.jpg" alt="" class="posters_grandes">
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+CSS
+
+body{
+    background-color: #111;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.posters{
+    width: 100%;
+    object-fit: contain;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.fila {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    color: white;
+    margin-left: 20px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.posters:hover{
+    transform: scale(1.08);
+}
+
+.posters::-webkit-scrollbar{
+    display: block;
+}
+
+.posters_grandes{
+    max-height: 250px;
+}
+
+.posters_grandes:hover{
+    transform: scale(1.07);
+}
+
+.banner{
+    background-image: url(avengers.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    object-fit: contain;
+    height: 700px;
+}
+
+.banner_contenido{
+    margin-left: 30px;
+    padding-top: 140px;
+    height: 190;
+}
+
+.banner_boton{
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    background-color: rgba(51,51, 51, 0.5);
+}
+
+.banner_boton:hover {
+    color: #111;
+    background-color: antiquewhite;
+    transition: all 0.2s;
+}
+
+.barra_logo{
+    width: 80px;
+    object-fit: contain;
+}
+
+.barra_perfil{
+    width: 35px;
+    object-fit: contain;
+    display: grid;
+}
+
+.barra{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    display: flex;
+    
+    }
+    
+.menu ul li {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    }
+
+.menu ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    padding-right: 10px 0;
+    z-index: 1000;
+    }
+
+h2 {
+    color: rgb(252, 252, 252);
+    
+}
+
