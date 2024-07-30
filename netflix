@@ -36,13 +36,13 @@
     <div class="titulo">
         <h2>ORIGINALES DE NETFLIX</h2>
     </div>
-    <div class="fila"></div>
+    <div class="fila">
         <div class="posters">
             <img src="bb.jpg" alt="" class="posters_grandes">
             <img src="flash.jpg" alt="" class="posters_grandes">
             <img src="sg.jpg" alt="" class="posters_grandes">
         </div>
-        </div>
+    </div>
 <!---->
     <div class="titulo">
         <h2>RECOMENDADOS PARA TI</h2>
@@ -74,74 +74,38 @@
 
 CSS
 
-body{
+body {
     background-color: #111;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.posters{
-    width: 100%;
-    object-fit: contain;
-    margin-right: 10px;
-    transition: transform 450ms;
-}
-
-.fila {
-    display: flex;
-    overflow-y: hidden;
-    overflow-x: scroll;
-    padding: 20px;
-    color: white;
-    margin-left: 20px;
-    overflow: hidden;
-    height: 100%;
-}
-
-.posters:hover{
-    transform: scale(1.08);
-}
-
-.posters::-webkit-scrollbar{
-    display: block;
-}
-
-.posters_grandes{
-    max-height: 250px;
-}
-
-.posters_grandes:hover{
-    transform: scale(1.07);
-}
-
-.banner{
+.banner {
     background-image: url(avengers.jpg);
     background-size: cover;
     background-position: center;
     color: white;
-    object-fit: contain;
     height: 700px;
+    position: relative;
 }
 
-.banner_contenido{
+.banner_contenido {
     margin-left: 30px;
     padding-top: 140px;
-    height: 190;
 }
 
-.banner_boton{
+.banner_boton {
     cursor: pointer;
     color: white;
     outline: none;
     border: none;
     font-weight: 700;
     border-radius: 0.2vw;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 0.5rem 2rem;
     margin-right: 1rem;
-    padding-top: 0.5rem;
-    background-color: rgba(51,51, 51, 0.5);
+    background-color: rgba(51, 51, 51, 0.5);
 }
 
 .banner_boton:hover {
@@ -150,69 +114,97 @@ body{
     transition: all 0.2s;
 }
 
-.barra_logo{
-    width: 80px;
-    object-fit: contain;
-}
-
-.barra_perfil{
-    width: 35px;
-    object-fit: contain;
-    display: grid;
-}
-
-.barra{
+.barra {
     position: fixed;
     top: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 4px;
-    z-index: 1;
-    transition-timing-function: ease-in;
+    z-index: 1000;
+    background-color: #000000;
     transition: all 0.5s;
 }
 
+.barra_logo {
+    width: 80px;
+    object-fit: contain;
+}
+
+.barra_perfil {
+    width: 35px;
+    object-fit: contain;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
 .menu ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
     margin: 0;
-    justify-content: space-around;
     display: flex;
-    
-    }
-    
-.menu ul li {
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-    padding: 15px;
-    }
+    justify-content: space-around;
+}
 
 .menu ul li a {
     color: aliceblue;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    }
-    
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    
-.menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #000000;
-    padding-right: 10px 0;
-    z-index: 1000;
-    }
+    padding: 15px;
+}
 
-h2 {
+.titulo {
+    text-align: left;
+    padding-left: 20px;
     color: rgb(252, 252, 252);
-    
+    margin: 20px 0;
+}
+
+.fila {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 20px;
+    color: white;
+    height: 100%;
+}
+
+.posters {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.posters::-webkit-scrollbar {
+    height: 8px;
+}
+
+.posters::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.posters::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.posters_grandes {
+    max-height: 250px;
+    width: auto;
+    height: auto;
+    transition: transform 450ms;
+}
+
+.posters_grandes:hover {
+    transform: scale(1.07);
 }
 
