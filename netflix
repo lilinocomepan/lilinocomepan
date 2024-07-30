@@ -11,7 +11,7 @@
         <div class="banner">
             <div class="banner_contenido">
                 <h1 class="banner_titulo"></h1>
-                <div class="banner_botones"></div>
+                <div class="banner_botones">
                     <button class="banner_boton">Play</button>
                     <button class="banner_boton">Mi lista</button>
                 </div>
@@ -34,7 +34,7 @@
 
 <!---->
     <div class="titulo">
-        <h2>ORIGINALES DE NETFLIX</h2>
+        <h2 class="texto">ORIGINALES DE NETFLIX</h2>
     </div>
     <div class="fila">
         <div class="posters">
@@ -70,101 +70,22 @@
 </body>
 </html>
 
-
-
 CSS
 
-body {
+body{
     background-color: #111;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
-.banner {
-    background-image: url(avengers.jpg);
-    background-size: cover;
-    background-position: center;
-    color: white;
-    height: 700px;
-    position: relative;
-}
-
-.banner_contenido {
-    margin-left: 30px;
-    padding-top: 140px;
-}
-
-.banner_boton {
-    cursor: pointer;
-    color: white;
-    outline: none;
-    border: none;
-    font-weight: 700;
-    border-radius: 0.2vw;
-    padding: 0.5rem 2rem;
-    margin-right: 1rem;
-    background-color: rgba(51, 51, 51, 0.5);
-}
-
-.banner_boton:hover {
-    color: #111;
-    background-color: antiquewhite;
-    transition: all 0.2s;
-}
-
-.barra {
-    position: fixed;
-    top: 0;
-    width: 100%;
+.posters{
     display: flex;
-    justify-content: space-between;
-    padding: 4px;
-    z-index: 1000;
-    background-color: #000000;
-    transition: all 0.5s;
-}
-
-.barra_logo {
-    width: 80px;
-    object-fit: contain;
-}
-
-.barra_perfil {
-    width: 35px;
-    object-fit: contain;
-}
-
-.menu {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #000;
-    padding: 10px 0;
-    z-index: 1000;
-}
-
-.menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-around;
-}
-
-.menu ul li a {
-    color: aliceblue;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 15px;
-}
-
-.titulo {
-    text-align: left;
-    padding-left: 20px;
-    color: rgb(252, 252, 252);
-    margin: 20px 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 20px;
+    color: white;
+    height: 100%;
 }
 
 .fila {
@@ -176,35 +97,131 @@ body {
     height: 100%;
 }
 
-.posters {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    gap: 10px;
-    width: 100%;
+.posters:hover{
+    transform: scale(1.06);
 }
 
-.posters::-webkit-scrollbar {
+.posters::-webkit-scrollbar{
+    display: block;
     height: 8px;
 }
 
-.posters::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 10px;
-}
-
-.posters::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
-.posters_grandes {
+.posters_grandes{
     max-height: 250px;
     width: auto;
     height: auto;
     transition: transform 450ms;
 }
 
-.posters_grandes:hover {
-    transform: scale(1.07);
+.posters_grandes:hover{
+    transform: scale(1.06);
 }
+
+.banner{
+    background-image: url(hp.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    object-fit: contain;
+    height: 700px;
+}
+
+.banner_contenido{
+    margin-left: 30px;
+    padding-top: 140px;
+    height: 190;
+}
+
+.banner_boton{
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    background-color: rgba(51,51, 51, 0.5);
+}
+
+.banner_boton:hover {
+    color: #111;
+    background-color: antiquewhite;
+    transition: all 0.2s;
+}
+
+.barra_logo{
+    width: 80px;
+    object-fit: contain;
+}
+
+.barra_perfil{
+    width: 35px;
+    object-fit: contain;
+    display: grid;
+    padding-right: 20px;
+}
+
+.barra{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    display: flex;
+    
+    }
+    
+.menu ul li {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    }
+
+.menu ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    padding-right: 10px 0;
+    z-index: 1000;
+    }
+
+h2 {
+    color: rgb(252, 252, 252);
+    padding-left: 20px;
+}
+
+.texto {
+    padding-top: 25px;
+
+}
+
 
