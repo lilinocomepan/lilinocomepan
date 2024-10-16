@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="stylesheet" href="style.css">
+        <title>Mi juego!</title>
+        <link rel="icon" href="kirby.jpg">
+    </head>
+        <body>
+            <div class="banner">
+                <h1>Oli goes to Churu</h1>
+            </div>
+        <header class="container">
+                <figure class="logo">
+                    <img src="gato.jpg" alt="logo">
+                </figure>
+            <nav class="menu">
+                <ul>
+                    <li class="submenu"><a href="#">Galería de imagenes</a>
+                        <ul>
+                            <li><a href="#">Oliver</a></li>
+                            <li><a href="#">Benito</a></li>
+                            <li><a href="#">Pepita</a></li>
+                            <li><a href="#">Lina</a></li>
+                            <li><a href="#">Mariana</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+            <section class="main-container">
+                <article class="article">
+                    <h1>¿De que trata?</h1>
+                    <p> El objetivo del juego es llevar a Oliver, un gato anaranjado muy glotón, 
+                        a su golosina favorita: el Churu. En el camino nos encontraremos con el mayor miedo de este minino, 
+                        el cual debe superar para poder alcanzar la meta. Se puede avanzar y retroceder con las flechas izquierda y derecha, además de saltar con la tecla espacio. 
+                        Hay intentos infinitos, pero al perder las tres vidas iniciales volverás al inicio.
+                    </p>
+                    <h1>Inspiración</h1>
+                    <p>aaa</p>
+                    <h1>Créditos</h1>
+                    <p>aaaaaa</p>
+                </article>
+        </body>
+</html>
+
+body {
+    background-color: rgb(226, 210, 193);
+}
+
+h1 {
+    color: rgb(255, 252, 252);
+    height: 70px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.banner {
+    width: 100%;
+    padding: 9rem 3rem;
+    text-align: center;
+    background: url(descarga.jpg);
+    background-color: rgba(0,0,0,.3);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 60px;
+    background: #b98b9d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    width: 40px;
+    margin: 0;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.item-options {
+    color: #303176;
+    margin: 0 1.5rem;
+    text-decoration: none;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article {
+    width: 70%;
+    font-size: larger;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #271d4d;
+    text-decoration: none;
+}
+
+.menu ul ul {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #19324f;
+    z-index: 1;
+}
+
+.menu ul ul li {
+    display: block;
+}
+
+.menu ul li:hover > ul {
+    display: block;
+}
